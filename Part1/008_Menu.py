@@ -45,3 +45,16 @@ print("Window Close")
 # 윈도우 창.config(menu=메뉴 이름)을 통하여 해당 윈도우 창에 메뉴를 등록할 수 있습니다.
 # window.quit()는 위젯이 유지된 채 window.mainloop() 이후의 코드를 실행시킵니다.
 # window.destroy()는 위젯을 파괴하고 window.mainloop() 이후의 코드를 실행시킵니다.
+
+# add_command(매개변수)	    기본 메뉴 항목 생성
+# add_radiobutton(매개변수)	라디오버튼 메뉴 항목 생성
+# add_checkbutton(매개변수)	체크버튼 메뉴 항목 생성
+# add_cascade(매개변수)	    상위 메뉴와 하위 메뉴 연결
+# add_separator()	        구분선 생성
+# add(유형, 매개변수)	        특정 유형의 메뉴 항목 생성
+# delete(start_index, end_index)	start_index부터 end_index까지의 항목 삭제
+# entryconfig(index, 매개변수)	    index 위치의 메뉴 항목 수정
+# index(item)	            item 메뉴 항목의 index 위치 반환
+# insert_separator (index)	index 위치에 구분선 생성
+# invoke(index)	            index 위치의 항목 실행
+# type(속성)	                선택 유형 반환 (command, radiobutton, checkbutton, cascade, separator, tearoff)
